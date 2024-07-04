@@ -91,7 +91,7 @@ const Header = ({ resetCart }) => {
                   </Link>
                 )}
                 <Link
-                  to="/login"
+                  to="/"
                   className="text-gray-800 px-4 py-3 text-lg font-medium border border-transparent rounded-md hover:bg-[#fed7aa] hover:text-gray-900 transition duration-300"
                   onClick={handleLogout}
                 >
