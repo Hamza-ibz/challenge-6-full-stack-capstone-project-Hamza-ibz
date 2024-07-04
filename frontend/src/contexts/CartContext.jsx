@@ -132,9 +132,9 @@ const CartProvider = ({ children }) => {
       });
       setCart(newCart);
     }
-    if (cartItem.amount < 2) {
-      removeFromCart(id);
-    }
+    // if (cartItem.amount < 2) {
+    //   removeFromCart(id);
+    // }
 
     // Prepare the payload for the API request
     const payload = { productId: id };
